@@ -5,3 +5,4 @@ RUN pipenv install --system --deploy && python -m nltk.downloader punkt && pytho
 COPY ./app ./app
 COPY .env .env
 EXPOSE 8000
+CMD uvicorn app.main:app
