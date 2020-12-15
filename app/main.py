@@ -10,7 +10,7 @@ from app.api import submission, visualization, clustering, db
 from app.utils.security.header_checking import get_api_key
 
 app = FastAPI(
-    title="Labs26-StorySquad-DS-Team B",
+    title="Labs29-StorySquad-DS-Team A",
     description="A RESTful API for the Story Squad Project",
     version="0.1",
     docs_url="/"
