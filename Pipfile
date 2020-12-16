@@ -39,6 +39,9 @@ scipy = "==1.5.2"
 nltk = "==3.4.4"
 sqlalchemy = "*"
 python-dotenv = "*"
+opencv-python = "==4.4.0.46"
+deskew = "==0.10.3"
+numpy = "==1.19.4"
 
 [requires]
 python_version = "3"
